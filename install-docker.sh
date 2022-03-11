@@ -4,6 +4,11 @@ sudo apt-get update -y
 sudo apt-get install -y \
     ca-certificates \
     curl \
+    wget \
+    git zsh \
+    p7zip \
+    zip unzip \
+    rar unrar \
     gnupg \
     lsb-release
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
